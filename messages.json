@@ -1,0 +1,56 @@
+{
+  "welcome":  [
+    "Nice to meet you, :name!\n",
+    "I can monitor your website(s) and automatically send you a message if something goes wrong.\n",
+    "At any point, you can type /help to get some help.\n",
+    "What would like to do first?"
+  ],
+
+  "welcome_answers": {
+    "monitor": "Monitor a website",
+    "help" : "See available commands",
+    "about" : "About"
+  },
+
+  "confirm": [
+    "I will be checking the website :url every few minutes to make sure it is working, and send you a message otherwise.\n",
+    "Do you want to continue? (Yes / No)"
+  ],
+
+  "help": [
+    "The available commands are listed below. (Leading '/' is not required)\n",
+    "/help            Print this message",
+    "/list            List the websites you are monitoring",
+    "/monitor [URL]   Start monitoring a website",
+    "/unmonitor [URL] Stop monitoring a website",
+    "/about           Information about this bot",
+    "/lolz            Easter egg"
+  ],
+
+  "prompt_url": "Please give me a valid URL that I can start monitoring. (You can omit the « http:// » part)",
+
+  "prompt_unmonitor_url": "What website do you want me to stop monitoring?",
+
+  "rickroll": "Take a look at http://bit.ly/downbot-easter-egg!",
+
+  "generic_error": "Woops, it looks like something went wrong. Please try again.",
+
+  "unmonitor_successful": "Got it! From now on I am not monitoring :url anymore.",
+
+  "monitor_successful": "All done!\n\nI will notify you if your website seems to be unreachable.",
+
+  "command_not_found": "I'm afraid I don't quite get what you want.\nType /help to see available commands.",
+
+  "no_monitored_url": "You are currently not monitoring any website.",
+
+  "monitored_urls_list": "You are currently monitoring the following URLs :\n",
+
+  "website_down_message": "Your website :url seems to be down!\nI will try to reach it again in :time",
+
+  "about": [
+    "I was made with love by @christophetd.\n",
+    "If you have any suggestions about my behaviour or if you think I am behaving in a way I am not supposed to, you can report it on github"
+  ],
+
+  "not_monitoring": "It looks like you are not monitoring this website."
+}

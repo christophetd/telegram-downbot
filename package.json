@@ -1,0 +1,28 @@
+{
+  "name": "downbot",
+  "version": "0.0.1",
+  "description": "A Telegram bot to monitor your websites",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "monitoring",
+    "telegram",
+    "bot",
+    "downbot"
+  ],
+  "author": "Christophe Tafani-Dereeper",
+  "license": "ISC",
+  "dependencies": {
+    "http": "0.0.0",
+    "pretty-seconds": "^0.1.3",
+    "telegram-bot": "^0.2.0",
+    "underscore": "^1.8.3",
+    "valid-url": "^1.0.9"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/linus/refix.git"
+  },
+}
