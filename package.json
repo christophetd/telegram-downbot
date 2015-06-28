@@ -15,6 +15,7 @@
   "author": "Christophe Tafani-Dereeper",
   "license": "ISC",
   "dependencies": {
+    "coffee": "^1.1.0",
     "http": "0.0.0",
     "pretty-seconds": "^0.1.3",
     "telegram-bot": "^0.2.0",
@@ -24,5 +25,5 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/linus/refix.git"
-  },
+  }
 }
