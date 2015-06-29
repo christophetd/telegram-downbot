@@ -52,5 +52,9 @@
     "If you have any suggestions about my behaviour or if you think I am behaving in a way I am not supposed to, you can report it on github"
   ],
 
-  "not_monitoring": "It looks like you are not monitoring this website."
+  "not_monitoring": "It looks like you are not monitoring this website.",
+
+  "http_error_code": "the website responded with a HTTP error code :code (:description)",
+
+  "website_timed_out": "the website timed out after :timeout seconds."
 }
